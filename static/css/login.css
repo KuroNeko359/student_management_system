@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input,
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login-form input:focus,
+.login-form select:focus {
+    border-color: #aaa;
+}
+
+.login-form .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form .login-button:hover {
+    background-color: #555;
+}
+
+.delete-button {
+    background-color: #FF0000;
+    color: white;
+}
+.delete-button:hover {
+    background-color: #c0392b; /* 悬停时稍深的红色 */
+}
